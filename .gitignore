@@ -1,0 +1,21 @@
+# --- GENEL ---
+.DS_Store
+
+# --- PYTHON (Backend) ---
+backend/__pycache__/
+backend/*.py[cod]
+backend/venv/
+backend/.venv/
+backend/.env
+
+# --- FLUTTER (Mobile) ---
+mobile/build/
+mobile/.dart_tool/
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+mobile/.idea/
+mobile/ios/.symlinks/
+mobile/ios/Pods/
+
+# --- GİZLİ DOSYALAR (Güvenlik) ---
+mobile/lib/secrets.dart
